@@ -4,14 +4,16 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     title: 'Blog application',
+    subtitle: 'Blog application',
     description: 'A responsive admin dashboard for managing online store inventory and orders. Built with React and Node.js.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwnX4TzxmuGZLxHQqk6rufArI80qldMNuew&s',
     tags: [ 'Node.js', 'Express','React', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Task Management App',
+    title: 'Tasky',
+    subtitle: 'Task Management App',
     description: 'A collaborative task management application with real-time updates and team features.',
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800',
     tags: ['React', 'Spring Boot', 'MySQL'],
@@ -19,15 +21,17 @@ const projects = [
     githubUrl: '#'
   },
   {
-    title: 'Encuest.io',
+    title: 'Encuesty.io',
+    subtitle: 'Encuest Website',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Weather Dashboard',
+    title: 'Weathery',
+    subtitle: 'Weather Dashboard',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
     tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
@@ -51,8 +55,9 @@ export function Projects() {
   );
 }
 
-function ProjectCard({ title, description, image, tags, liveUrl, githubUrl }: {
+function ProjectCard({ title,subtitle, description, image, tags, liveUrl, githubUrl }: {
   title: string;
+  subtitle: string;
   description: string;
   image: string;
   tags: string[];
@@ -68,6 +73,7 @@ function ProjectCard({ title, description, image, tags, liveUrl, githubUrl }: {
       />
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <p className="text-gray-600 mb-4">{subtitle}</p>
         <p className="text-gray-600 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag) => (
