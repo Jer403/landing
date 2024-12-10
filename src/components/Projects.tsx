@@ -6,7 +6,7 @@ const projects = [
     title: 'E-commerce Dashboard',
     description: 'A responsive admin dashboard for managing online store inventory and orders. Built with React and Node.js.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB'],
+    tags: [ 'Node.js', 'Express','React', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
@@ -14,7 +14,7 @@ const projects = [
     title: 'Task Management App',
     description: 'A collaborative task management application with real-time updates and team features.',
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800',
-    tags: ['React', 'Spring Boot', 'PostgreSQL'],
+    tags: ['React', 'Spring Boot', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },

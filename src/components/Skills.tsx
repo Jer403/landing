@@ -3,8 +3,8 @@ import { Code, Server, Database, Layout } from 'lucide-react';
 
 const skills = {
   frontend: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS'],
-  backend: ['Node.js', 'Java', 'Spring'],
-  tools: ['Git', 'VS Code', 'npm', 'Maven'],
+  backend: ['Node.js', 'Java', 'Spring', 'MySQL'],
+  tools: ['Git', 'VS Code', 'npm', 'Maven', 'WordPress'],
   soft: ['Problem Solving', 'Team Collaboration', 'Communication']
 };
 
