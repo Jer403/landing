@@ -17,7 +17,7 @@ export function Header() {
             <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
           </div>
           <div className="flex items-center gap-4">
-            <a href="mailto:contact@josefelix.dev" className="hover:text-blue-400 transition-colors">
+            <a href="mailto:josefelixlr05@gmail.com" className="hover:text-blue-400 transition-colors">
               <Mail className="w-5 h-5" />
             </a>
             <a href="https://github.com/josefelix" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
