@@ -3,7 +3,7 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'E-commerce Dashboard',
+    title: 'Blog application',
     description: 'A responsive admin dashboard for managing online store inventory and orders. Built with React and Node.js.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     tags: [ 'Node.js', 'Express','React', 'MySQL'],
@@ -19,7 +19,7 @@ const projects = [
     githubUrl: '#'
   },
   {
-    title: 'Weather Dashboard',
+    title: 'Encuest.io',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
     tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
