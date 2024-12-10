@@ -10,7 +10,7 @@ export function Hero() {
             Frontend Developer with a Passion for Creating Amazing Web Experiences
           </h1>
           <p className="text-xl text-gray-300 mb-8">
-            Hi, I'm Jose Felix. With 1.5 years of experience in web development,
+            Hi, I'm Jose Felix. With 2 years of experience in web development,
             I specialize in building responsive and user-friendly applications
             using modern technologies.
           </p>
