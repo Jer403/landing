@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Mail, Github, Linkedin } from 'lucide-react';
+import { Code2, Mail, Github, Linkedin, Facebook } from 'lucide-react';
 
 export function Header() {
   return (
@@ -23,8 +23,11 @@ export function Header() {
             <a href="https://github.com/josefelix" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com/in/josefelix" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+            <a href="https://cu.linkedin.com/in/jos%C3%A9-felix-lorenzo-rodr%C3%ADguez-b747b6328" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <Linkedin className="w-5 h-5" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100088139118774" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+              <Facebook className="w-5 h-5" />
             </a>
           </div>
         </nav>

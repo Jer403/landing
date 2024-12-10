@@ -10,9 +10,6 @@ export function Footer() {
             <Code2 className="w-6 h-6" />
             <span className="text-xl font-bold">Jose Felix</span>
           </div>
-          <div className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Jose Felix. All rights reserved.
-          </div>
         </div>
       </div>
     </footer>

@@ -23,7 +23,7 @@ export function Contact() {
             </div>
             <div className="flex items-center gap-3">
               <Facebook className="w-5 h-5 text-blue-600" />
-              <a href="https://cu.linkedin.com/in/jos%C3%A9-felix-lorenzo-rodr%C3%ADguez-b747b6328" className="hover:text-blue-600">
+              <a href="https://www.facebook.com/profile.php?id=100088139118774" className="hover:text-blue-600">
                 Facebook
               </a>
             </div>
