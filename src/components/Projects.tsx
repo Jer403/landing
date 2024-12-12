@@ -34,7 +34,7 @@ const projects = [
     subtitle: 'Weather Dashboard',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
-    tags: ['Javascript', 'React', 'API REST'],
+    tags: ['HTML5', 'CSS3', 'Javascript', 'React', 'API REST'],
     liveUrl: '#',
     githubUrl: '#'
   }
