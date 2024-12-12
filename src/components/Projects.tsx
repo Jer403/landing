@@ -21,20 +21,20 @@ const projects = [
     githubUrl: '#'
   },
   {
-    title: 'Encuesty.io',
+    title: 'Encuest Website',
     subtitle: 'Encuest Website',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-    tags: ['Javascript', 'React', 'Nodejs', 'Express'],
+    tags: ['React', 'Nodejs', 'Express', MySQL],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Weathery',
+    title: 'Weather Dashboard',
     subtitle: 'Weather Dashboard',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
-    tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
+    tags: ['Javascript', 'React', 'API REST'],
     liveUrl: '#',
     githubUrl: '#'
   }
