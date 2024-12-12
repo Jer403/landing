@@ -16,7 +16,7 @@ const projects = [
     subtitle: 'Task Management App',
     description: 'A collaborative task management application with real-time updates and team features.',
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800',
-    tags: ['React', 'Spring Boot', 'MySQL'],
+    tags: ['Javascript' , 'Spring Boot', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
@@ -25,7 +25,7 @@ const projects = [
     subtitle: 'Encuest Website',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-    tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
+    tags: ['Javascript', 'React', 'Nodejs', 'Express'],
     liveUrl: '#',
     githubUrl: '#'
   },
