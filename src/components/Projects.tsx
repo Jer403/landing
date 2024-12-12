@@ -12,7 +12,7 @@ const projects = [
     githubUrl: '#'
   },
   {
-    title: 'Tasky',
+    title: 'ProductyFlow',
     subtitle: 'Task Management App',
     description: 'A collaborative task management application with real-time updates and team features.',
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800',
