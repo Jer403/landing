@@ -7,7 +7,7 @@ const projects = [
     subtitle: 'Blog application',
     description: 'A responsive admin dashboard for managing online store inventory and orders. Built with React and Node.js.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwnX4TzxmuGZLxHQqk6rufArI80qldMNuew&s',
-    tags: [ 'Node.js', 'Express','React', 'MySQL'],
+    tags: [ 'WordPress', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
