@@ -25,7 +25,7 @@ const projects = [
     subtitle: 'Encuest Website',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-    tags: ['React', 'Nodejs', 'Express', MySQL],
+    tags: ['React', 'Nodejs', 'Express', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
