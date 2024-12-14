@@ -20,8 +20,8 @@
         width: 100vw;
         position: absolute;
         right: 0;
-        padding: 1rem 1.4rem;
-        background: #1f2937;
+        padding: 1.4rem 1.4rem;
+        background: #111827;
         flex-wrap: wrap;
         top: -200px;
         transition: top .7s;
