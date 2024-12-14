@@ -40,7 +40,6 @@ export function Header() {
           <button className='switch-mobile' onClick={handlerClick}>{icon}</button>
           <div className="flex mobile-links">
             <div className="flex items-center gap-6">
-              <a href="#about" className="hover:text-blue-400 transition-colors">About</a>
               <a href="#skills" className="hover:text-blue-400 transition-colors">Skills</a>
               <a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a>
               <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
