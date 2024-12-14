@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
+
 const projects = [
   {
     title: 'Blog application',
@@ -34,6 +35,15 @@ const projects = [
     subtitle: 'Weather Dashboard',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
+    tags: ['HTML5', 'CSS3', 'Javascript', 'React', 'API REST','In Process'],
+    liveUrl: '#',
+    githubUrl: '#'
+  },
+  {
+    title: 'Local ProductyFlow',
+    subtitle: 'Task Management App',
+    description: 'This is the local version without server of ProductyFlow.',
+    image: 'https://josefelixlr.pages.dev/',
     tags: ['HTML5', 'CSS3', 'Javascript', 'React', 'API REST','In Process'],
     liveUrl: '#',
     githubUrl: '#'
