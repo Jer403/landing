@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-
+import myImage from '../localproductyflow.png';
 
 const projects = [
   {
@@ -43,8 +43,8 @@ const projects = [
     title: 'Local ProductyFlow',
     subtitle: 'Task Management App',
     description: 'This is the local version without server of ProductyFlow.',
-    image: 'https://josefelixlr.pages.dev/',
-    tags: ['HTML5', 'CSS3', 'Javascript', 'React', 'API REST','In Process'],
+    image: myImage,
+    tags: ['HTML5', 'CSS3', 'Javascript', 'In Process'],
     liveUrl: '#',
     githubUrl: '#'
   }
