@@ -2,11 +2,18 @@ import React, { useState } from 'react';
 import { Code2, Mail, Github, Linkedin, Facebook, XIcon, LucideAlignJustify } from 'lucide-react';
 
 export function Header() {
-  const [icon, setIcon] = useState(<XIcon className="w-5 h-5" />);
+  const [bool, setBool] = useState(false);
+  const [icon, setIcon] = useState(<LucideAlignJustify className="w-5 h-5" />);
 
   const handlerClick = () =>{
     document.querySelector(".mobile-links")?.classList.toggle("showLinks")
-    setIcon(<LucideAlignJustify className="w-5 h-5" />)
+    if(bool){
+      setBool(!bool)
+      setIcon(<LucideAlignJustify className="w-5 h-5" />)
+    }else{
+      setBool(!bool)
+      setIcon(<XIcon className="w-5 h-5" />)
+    }
   }
 
 
@@ -14,7 +21,7 @@ export function Header() {
     <header className="bg-gray-900 text-white py-6">
       <div className="container mx-auto px-4">
         <nav className="flex justify-between items-center">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 name-logo">
             <Code2 className="w-6 h-6" />
             <span className="text-xl font-bold">Jose Felix</span>
           </div>
@@ -38,13 +45,13 @@ export function Header() {
             </a>
           </div>
           <button className='switch-mobile' onClick={handlerClick}>{icon}</button>
-          <div className="flex mobile-links">
-            <div className="flex items-center gap-6">
+          <div className="flex mobile-links gap-6">
+            <div className="flex gap-6 links-t">
               <a href="#skills" className="hover:text-blue-400 transition-colors">Skills</a>
               <a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a>
               <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 links-i">
               <a href="mailto:josefelixlr05@gmail.com" className="hover:text-blue-400 transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
