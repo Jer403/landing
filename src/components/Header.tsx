@@ -34,7 +34,7 @@ export function Header() {
             <a href="mailto:josefelixlr05@gmail.com" className="hover:text-blue-400 transition-colors">
               <Mail className="w-5 h-5" />
             </a>
-            <a href="https://github.com/josefelix" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+            <a href="https://github.com/Jer403" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <Github className="w-5 h-5" />
             </a>
             <a href="https://cu.linkedin.com/in/jos%C3%A9-felix-lorenzo-rodr%C3%ADguez-b747b6328" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
