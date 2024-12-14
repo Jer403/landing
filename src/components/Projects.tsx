@@ -7,34 +7,34 @@ const projects = [
     subtitle: 'Blog application',
     description: 'A responsive admin dashboard for managing online store inventory and orders. Built with React and Node.js.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwnX4TzxmuGZLxHQqk6rufArI80qldMNuew&s',
-    tags: [ 'Node.js', 'Express','React', 'MySQL'],
+    tags: [ 'WordPress', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Tasky',
+    title: 'ProductyFlow',
     subtitle: 'Task Management App',
     description: 'A collaborative task management application with real-time updates and team features.',
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800',
-    tags: ['React', 'Spring Boot', 'MySQL'],
+    tags: ['Javascript' , 'Spring Boot', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Encuesty.io',
+    title: 'Encuest Website',
     subtitle: 'Encuest Website',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-    tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
+    tags: ['React', 'Nodejs', 'Express', 'MySQL'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Weathery',
+    title: 'Weather Dashboard',
     subtitle: 'Weather Dashboard',
     description: 'A weather application that displays current conditions and forecasts using external APIs.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
-    tags: ['JavaScript', 'HTML', 'CSS', 'REST API'],
+    tags: ['HTML5', 'CSS3', 'Javascript', 'React', 'API REST'],
     liveUrl: '#',
     githubUrl: '#'
   }

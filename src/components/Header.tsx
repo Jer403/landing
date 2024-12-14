@@ -19,7 +19,6 @@ export function Header() {
             <span className="text-xl font-bold">Jose Felix</span>
           </div>
           <div className="flex items-center gap-6 links-mobile">
-            <a href="#about" className="hover:text-blue-400 transition-colors">About</a>
             <a href="#skills" className="hover:text-blue-400 transition-colors">Skills</a>
             <a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a>
             <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>

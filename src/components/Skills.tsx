@@ -2,8 +2,8 @@ import React from 'react';
 import { Code, Server, Database, Layout } from 'lucide-react';
 
 const skills = {
-  frontend: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS'],
-  backend: ['Node.js', 'Java', 'Spring', 'MySQL'],
+  frontend: ['HTML5', 'CSS3', 'JavaScript', 'React'],
+  backend: ['Node.js', 'Express', 'Java', 'Spring', 'MySQL'],
   tools: ['Git', 'VS Code', 'npm', 'Maven', 'WordPress'],
   soft: ['Problem Solving', 'Team Collaboration', 'Communication']
 };
