@@ -4,8 +4,6 @@
 
 .links-t{
     align-items: flex-end;
-
-
 }
 
 .name-logo{
@@ -29,7 +27,7 @@
         transition: top .7s;
     }  
     .showLinks{
-        top: 40px;
+        top: 60px;
     }
 
     .links-mobile{
