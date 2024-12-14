@@ -1,0 +1,24 @@
+.switch-mobile, .mobile-links{
+    display: none;
+}   
+
+@media (max-width: 700px) {
+    .switch-mobile, .mobile-links{
+        display: flex;
+    } 
+    .mobile-links{
+        flex-direction: column;
+        align-content: flex-end;
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        padding: 1rem 1rem;
+        background: #1f2937 var(--tw-gradient-to-position);
+        flex-wrap: wrap;
+        top: -90px;
+    }  
+    .showLinks{
+        top: 40px;
+    }
+
+}
