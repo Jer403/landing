@@ -34,6 +34,9 @@
         top: -200px;
         transition: top .7s;
     }  
+    .switch-mobile{
+        z-index: 100;
+    } 
     .showLinks{
         top: 60px;
     }
