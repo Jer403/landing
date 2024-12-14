@@ -3,16 +3,16 @@ import { Code2, Mail, Github, Linkedin, Facebook, XIcon, LucideAlignJustify } fr
 
 export function Header() {
   const [bool, setBool] = useState(false);
-  const [icon, setIcon] = useState(<LucideAlignJustify className="w-5 h-5" />);
+  const [icon, setIcon] = useState(<LucideAlignJustify className="w-6 h-6" />);
 
   const handlerClick = () =>{
     document.querySelector(".mobile-links")?.classList.toggle("showLinks")
     if(bool){
       setBool(!bool)
-      setIcon(<LucideAlignJustify className="w-5 h-5" />)
+      setIcon(<LucideAlignJustify className="w-6 h-6" />)
     }else{
       setBool(!bool)
-      setIcon(<XIcon className="w-5 h-5" />)
+      setIcon(<XIcon className="w-6 h-6" />)
     }
   }
 
