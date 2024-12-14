@@ -44,9 +44,9 @@ const projects = [
     subtitle: 'Task Management App',
     description: 'This is the local version without server of ProductyFlow.',
     image: myImage,
-    tags: ['HTML5', 'CSS3', 'Javascript', 'In Process'],
-    liveUrl: '#',
-    githubUrl: '#'
+    tags: ['HTML5', 'CSS3', 'Javascript'],
+    liveUrl: 'https://localproductyflow.pages.dev/',
+    githubUrl: 'https://github.com/Jer403/localproductyflow'
   }
 ];
 
