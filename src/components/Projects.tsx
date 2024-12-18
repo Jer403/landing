@@ -51,7 +51,7 @@ const projects = [
 {
     title: 'Unknown Studio',
     subtitle: 'Studio store',
-    description: 'A store website for the Unknown Studio's games',
+    description: "A store website for the Unknown Studio's games",
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwnX4TzxmuGZLxHQqk6rufArI80qldMNuew&s',
     tags: [ 'React', 'Node.js', 'Express', 'MySQL','In Process'],
     liveUrl: '#',
