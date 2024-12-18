@@ -52,7 +52,7 @@ const projects = [
     title: 'Unknown Studio',
     subtitle: 'Studio store',
     description: "A store website for the Unknown Studio's games",
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwnX4TzxmuGZLxHQqk6rufArI80qldMNuew&s',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     tags: [ 'React', 'Node.js', 'Express', 'MySQL','In Process'],
     liveUrl: '#',
     githubUrl: '#'
