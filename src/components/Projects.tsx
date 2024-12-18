@@ -56,7 +56,7 @@ const projects = [
     tags: [ 'React', 'Node.js', 'Express', 'MySQL','In Process'],
     liveUrl: '#',
     githubUrl: '#'
-  },
+  }
 ];
 
 export function Projects() {
