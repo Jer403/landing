@@ -47,7 +47,16 @@ const projects = [
     tags: ['HTML5', 'CSS3', 'Javascript'],
     liveUrl: 'https://localproductyflow.pages.dev/',
     githubUrl: 'https://github.com/Jer403/localproductyflow'
-  }
+  },
+{
+    title: 'Unknown Studio',
+    subtitle: 'Blog application',
+    description: 'A responsive admin dashboard for managing online store inventory and orders. Built with React and Node.js.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwnX4TzxmuGZLxHQqk6rufArI80qldMNuew&s',
+    tags: [ 'WordPress', 'MySQL','In Process'],
+    liveUrl: '#',
+    githubUrl: '#'
+  },
 ];
 
 export function Projects() {
