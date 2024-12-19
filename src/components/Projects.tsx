@@ -49,7 +49,7 @@ const projects = [
     githubUrl: 'https://github.com/Jer403/localproductyflow'
   },
 {
-    title: '<Jet to find> Studio',
+    title: '[Jet to find] Studio',
     subtitle: 'Studio store',
     description: "A store website for the 
  Studio's games",
