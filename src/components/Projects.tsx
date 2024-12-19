@@ -49,9 +49,10 @@ const projects = [
     githubUrl: 'https://github.com/Jer403/localproductyflow'
   },
 {
-    title: 'Unknown Studio',
+    title: '<Jet to find> Studio',
     subtitle: 'Studio store',
-    description: "A store website for the Unknown Studio's games",
+    description: "A store website for the 
+ Studio's games",
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     tags: [ 'React', 'Node.js', 'Express', 'MySQL','In Process'],
     liveUrl: '#',
