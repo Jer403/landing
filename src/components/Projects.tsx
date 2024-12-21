@@ -47,6 +47,15 @@ const projects = [
     tags: ['HTML5', 'CSS3', 'Javascript'],
     liveUrl: 'https://localproductyflow.pages.dev/',
     githubUrl: 'https://github.com/Jer403/localproductyflow'
+  },
+{
+    title: '-Yet to find- Studio',
+    subtitle: 'Studio store',
+    description: "A store website for the Studio's games",
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+    tags: [ 'React', 'Node.js', 'Express', 'MySQL','In Process'],
+    liveUrl: '#',
+    githubUrl: '#'
   }
 ];
 
