@@ -50,7 +50,7 @@ const projects = [
   },
 {
     title: '-Yet to find- Studio',
-    subtitle: 'Studio store',
+    subtitle: 'Store website',
     description: "A store website for the Studio's games",
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     tags: [ 'React', 'Node.js', 'Express', 'MySQL','In Process'],
