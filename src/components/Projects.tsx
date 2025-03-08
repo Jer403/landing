@@ -108,7 +108,7 @@ function ProjectCard({
   githubUrl: string;
 }) {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-[101%] transition-[scale]">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-[102%] transition-[scale]">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
