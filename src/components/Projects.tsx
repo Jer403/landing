@@ -41,6 +41,16 @@ const projects = [
     githubUrl: "#",
   },
   {
+    title: "EasePassword",
+    subtitle: "Password Generator",
+    description: "Fast and simple password generator to secure your accounts",
+    image: easepass,
+    tags: ["Javascript", "React", "Tailwind"],
+    hidden: false,
+    liveUrl: "https://easepassword.pages.dev/",
+    githubUrl: "https://github.com/Jer403/passwordgenerator",
+  },
+  {
     title: "Local ProductyFlow",
     subtitle: "Task Management App",
     description: "This is the local version without server of ProductyFlow.",
@@ -59,16 +69,6 @@ const projects = [
     hidden: false,
     liveUrl: "https://krono.pages.dev/",
     githubUrl: "https://github.com/Jer403/cronometer",
-  },
-  {
-    title: "EasePassword",
-    subtitle: "Password Generator",
-    description: "Fast and simple password generator to secure your accounts",
-    image: easepass,
-    tags: ["Javascript", "React", "Tailwind"],
-    hidden: false,
-    liveUrl: "https://easepassword.pages.dev/",
-    githubUrl: "https://github.com/Jer403/passwordgenerator",
   },
 ];
 
