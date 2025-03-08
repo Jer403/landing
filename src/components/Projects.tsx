@@ -1,7 +1,8 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
-import localproductyflowImg from "../localproductyflow.png";
-import kronoImg from "../krono.png";
+import localproductyflowImg from "../localproductyflow.webp";
+import kronoImg from "../krono.webp";
+import easepass from "../easepassword.webp";
 
 const projects = [
   {
@@ -40,16 +41,6 @@ const projects = [
     githubUrl: "#",
   },
   {
-    title: "Krono",
-    subtitle: "Cronometer",
-    description: "A simple cronometer to keep track of your work hours",
-    image: kronoImg,
-    tags: ["Javascript", "React"],
-    hidden: false,
-    liveUrl: "https://krono.pages.dev/",
-    githubUrl: "https://github.com/Jer403/cronometer",
-  },
-  {
     title: "Local ProductyFlow",
     subtitle: "Task Management App",
     description: "This is the local version without server of ProductyFlow.",
@@ -58,6 +49,26 @@ const projects = [
     hidde: false,
     liveUrl: "https://localproductyflow.pages.dev/",
     githubUrl: "https://github.com/Jer403/localproductyflow",
+  },
+  {
+    title: "Krono",
+    subtitle: "Cronometer",
+    description: "A simple cronometer to keep track of your work hours",
+    image: kronoImg,
+    tags: ["Javascript", "React", "Tailwind"],
+    hidden: false,
+    liveUrl: "https://krono.pages.dev/",
+    githubUrl: "https://github.com/Jer403/cronometer",
+  },
+  {
+    title: "EasePassword",
+    subtitle: "Password Generator",
+    description: "Fast and simple password generator to secure your accounts",
+    image: easepass,
+    tags: ["Javascript", "React", "Tailwind"],
+    hidden: false,
+    liveUrl: "https://easepassword.pages.dev/",
+    githubUrl: "https://github.com/Jer403/passwordgenerator",
   },
 ];
 
